@@ -1,0 +1,12 @@
+{
+  "manifest_version": 2,
+  "name": "Test",
+  "version": "1.0",
+  "description": "Test Description",
+  "content_scripts": [
+    {
+      "matches": ["http://www.google.com/"],
+      "js": ["./main.js"]
+    }
+  ]
+}
